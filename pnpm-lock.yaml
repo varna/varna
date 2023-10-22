@@ -91,6 +91,9 @@ devDependencies:
   sharp:
     specifier: ^0.32.0
     version: 0.32.6
+  vercel:
+    specifier: ^32.5.0
+    version: 32.5.0
 
 packages:
 
@@ -5315,7 +5318,7 @@ packages:
       workerd: 1.20231016.0
       ws: 8.14.2
       youch: 3.3.2
-      zod: 3.21.4
+      zod: 3.22.4
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -8144,6 +8147,7 @@ packages:
 
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+    dev: false
 
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
